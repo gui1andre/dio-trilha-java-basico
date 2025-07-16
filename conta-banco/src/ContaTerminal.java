@@ -10,7 +10,7 @@ public class ContaTerminal {
         System.out.printf("%s, digite o número da sua conta: \n", nomeCliente);
         var numeroConta = scanner.nextInt();
         System.out.printf("Agora, digite o número da agência: \n");
-        var numeroAgencia = scanner.nextInt();
+        var numeroAgencia = scanner.next();
         System.out.print("Por último, digite o saldo da conta: \n");
         var saldo = scanner.nextBigDecimal();
 
